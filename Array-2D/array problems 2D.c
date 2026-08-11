@@ -40,6 +40,7 @@ for(i=0;i<3;i++){
 printf("smallest value is:%d",smallest);
 return 0;
     }
+
 //character input and find the character
 #include<stdio.h>
 int main(){
@@ -67,6 +68,7 @@ printf("matrix:\n");
             else
                 printf("not found");
 }
+
 //printing upper or lower part of a matrix
 #include<stdio.h>
 int main(){
@@ -84,13 +86,12 @@ for(i=0;i<3;i++){
     else
         printf("  ");
     }printf("\n");}
-}*/
+}
+
 //sum of primary and secondary diagonal elements
 #include<stdio.h>
 int main(){
-
 int matrix[3][3],i,j,sum=0,sum1=0;
-
 printf("input the element of matrix:");
 for(i=0;i<3;i++){
     for(j=0;j<3;j++){
@@ -113,11 +114,11 @@ for(i=0;i<3;i++){
             sum1=sum1+matrix[i][j];}}
             printf("%d",sum1);
             }
+
 //sparse matrix verify and print the non zero element position
 #include<stdio.h>
 int main(){
 int matrix[3][3],i,j,zero=0,non_zero=0;
-
 printf("input the element of matrix:");
 for(i=0;i<3;i++){
     for(j=0;j<3;j++){
@@ -141,6 +142,7 @@ for(i=0;i<3;i++){
    else
     printf("it is not a sparse matrix");
 }
+
 //sum of two matrix
 #include<stdio.h>
 int main(){
@@ -162,6 +164,7 @@ for(i=0;i<3;i++){
         printf("%-2d ",sum_matrix[i][j]);
     }printf("\n");}
 }
+
 //transpose matrix
 #include<stdio.h>
 int main(){
