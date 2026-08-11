@@ -27,6 +27,6 @@ Compiler: GCC / Code::Blocks
 👤 About
 I'm a first-year EEE student at RUET (Rajshahi University of Engineering & Technology), Bangladesh. This repository documents my journey of learning C programming through hands-on practice and problem-solving.
 
-📌 Note
+** Note
 
 More programs will be added as coursework progresses. Each new topic gets its own folder to keep things organized and easy to navigate.
