@@ -8,6 +8,7 @@ for(i=0;i<n;i++){
 }printf("sum=%d",sum);
 float average=sum/5.0;
 printf("average=%.2f",average);
+ return 0;
 }
 //reverse the array elements
 #include<stdio.h>
@@ -21,6 +22,7 @@ for(i=n-1;i>=0;i--){
 
   printf("%d ",value[i]);
 }
+ return 0;
 }
 //Find largest,second largest,smallest number
 #include<stdio.h>
@@ -38,6 +40,7 @@ for(i=1;i<n;i++){
         largest=value[i];
 }
 printf("Largest value is:%d",largest);
+ return 0;
 }
 //smallest
 #include<stdio.h>
@@ -55,6 +58,7 @@ for(i=1;i<n;i++){
         smallest=value[i];
 }
 printf("smallest value is:%d",smallest);
+ return 0;
 }
 //second largest
 #include<stdio.h>
@@ -77,6 +81,7 @@ for(i=1;i<n;i++){
 }
 printf("Largest value is:%d\n",largest);
 printf("second largest value is:%d",second);
+ return 0;
 }
 //linear search
 #include<stdio.h>
@@ -91,6 +96,7 @@ for(i=0;i<61;i++){
     }
 }
 printf("Your result:%d",j);
+ return 0;
 }
 //binary search
 #include<stdio.h>
@@ -110,6 +116,7 @@ if(j==1)
     printf("Input number is exist");
 else
     printf("Input number is not exist");
+ return 0;
 }
 //double number count and print
 #include<stdio.h>
@@ -123,6 +130,7 @@ for(i=0;i<5;i++){
   break;}
     }
 }
+ return 0;
 }
 //bubble sorting
 #include<stdio.h>
@@ -139,6 +147,7 @@ for(i=0;i<6;i++){
 for(i=0;i<6;i++){
     printf("%d",value[i]);
 }
+ return 0;
 }
 
 
