@@ -8,6 +8,7 @@ for(i=1;i<=r;i++){
         printf("*");
     }printf("\n");
 }
+return 0;
 }
 
 //Right-Aligned Number Triangle
@@ -23,6 +24,7 @@ for(i=1;i<=r;i++){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Full/Centered Pyramid
@@ -38,6 +40,7 @@ for(i=1;i<=r;i++){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Continuous Number Pyramid
@@ -54,6 +57,7 @@ for(i=1;i<=r;i++){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Inverted Right-Aligned Triangle
@@ -69,6 +73,7 @@ for(i=r;i>=1;i--){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Diamond(Rhombus)Pattern
@@ -92,6 +97,7 @@ for(i=r;i>=1;i--){
     printf("\n");
 
 }
+return 0;
 }
 
 //Solid Square
@@ -104,6 +110,7 @@ for(i=1;i<=r;i++){
         printf("*");
     }printf("\n");
 }
+return 0;
 }
 
 //Hollow Square
@@ -120,6 +127,7 @@ for(i=1;i<=r;i++){
     }
 printf("\n");
 }
+return 0;
 }
 
 //Hollow Pyramid(Triangle Outline)
@@ -138,6 +146,7 @@ for(i=1;i<=r;i++){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Alphabet Pyramid(Same Letter per Row)
@@ -153,6 +162,7 @@ for(i=1;i<=r;i++){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Continuous Alphabet Pyramid
@@ -170,6 +180,7 @@ for(i=1;i<=r;i++){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Left-Leaning Parallelogram
@@ -187,23 +198,23 @@ for(i=1;i<=r;i++){
     }
     printf("\n");
 }
+return 0;
 }
 
 //Right-Leaning Parallelogram
 # include<stdio.h>
 int main(){
 int i,j,r;
-
 scanf("%d",&r);
 for(i=r;i>=1;i--){
     for(j=i;j<r;j++){
         printf(" ");
     } for(j=1;j<=r;j++){
     printf("*");
-
     }
     printf("\n");
 }
+return 0;
 }
 
 
