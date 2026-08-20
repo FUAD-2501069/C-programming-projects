@@ -67,6 +67,7 @@ printf("matrix:\n");
                 printf("found");
             else
                 printf("not found");
+    return 0;
 }
 
 //printing upper or lower part of a matrix
@@ -86,6 +87,7 @@ for(i=0;i<3;i++){
     else
         printf("  ");
     }printf("\n");}
+    return 0;
 }
 
 //sum of primary and secondary diagonal elements
@@ -113,6 +115,7 @@ for(i=0;i<3;i++){
            if(3-i-1==j )
             sum1=sum1+matrix[i][j];}}
             printf("%d",sum1);
+    return 0;
             }
 
 //sparse matrix verify and print the non zero element position
@@ -141,6 +144,7 @@ for(i=0;i<3;i++){
    printf("it is a sparse matrix");
    else
     printf("it is not a sparse matrix");
+    return 0;
 }
 
 //sum of two matrix
@@ -163,6 +167,7 @@ for(i=0;i<3;i++){
     for(j=0;j<3;j++){
         printf("%-2d ",sum_matrix[i][j]);
     }printf("\n");}
+    return 0;
 }
 
 //transpose matrix
@@ -187,4 +192,5 @@ for(i=0;i<3;i++){
     for(j=0;j<3;j++){
         printf("%-2d",transpose[i][j]);
     }printf("\n");}
+    return 0;
 }
