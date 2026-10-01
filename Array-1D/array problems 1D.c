@@ -88,14 +88,18 @@ printf("second largest value is:%d",second);
 int main(){
 int value[61]={0,17,16,13,18,19,15,18,15,18,15,18,18,18,16,14,8,18,11,15,8,18,11,16,16,11,10,0,12,18,8,9,15,11,15,7,6,16,14,15,12,11,15,16,11,15,0,11,18,18,8,15,17,20,12,15,17,10,0,5,5},found,i,j;
 printf("Your math class test result has been published.Check your result fast.\nEnter your serial(ex:roll 61 input 1,roll 120 input 60) :");
-
 scanf("%d",&found);
 for(i=0;i<61;i++){
     if(found==i){
         j=value[i];
     }
 }
-printf("Your result:%d",j);
+printf("Your result:%d out of 20\n",j);
+if(j>16)
+    printf("Congratulation;You get A+");
+else if(j<16&&j>10)
+    printf("not bad;try to make it better");
+else printf("You are not in track.");
  return 0;
 }
 //binary search
