@@ -1,4 +1,4 @@
-/*//sum of all digit of a number
+//sum of all digit of a number
 #include<stdio.h>
 int main(){
 int n,sum=0;
@@ -7,7 +7,9 @@ for(;n!=0;n=n/10){
     sum=sum+n%10;
 }
 printf("%d",sum);
+return 0;
 }
+
 //reverse number
 #include<stdio.h>
 int main(){
@@ -16,8 +18,9 @@ scanf("%d",&n);
 for(;n!=0;n=n/10){
    rev=n%10;
     printf("%d",rev);
+}return 0;
 }
-}
+
 //Verify the palindrome number
 #include <stdio.h>
 int main(){
@@ -30,8 +33,10 @@ int main(){
     if(temp==rev)
         printf("palindrome");
         else
-            printf("not palindrome");
+printf("not palindrome");
+return 0;
 }
+
 //Verify the amstrong number
 #include<stdio.h>
 #include<math.h>
@@ -52,7 +57,9 @@ if(sum==c)
     printf("amstrong");
 else
     printf("not amstrong");
+return 0;
 }
+
 //factorial
 #include<stdio.h>
 int main(){
@@ -62,7 +69,9 @@ for(;n>0;n=n-1){
     r=r*n;
 }
 printf("%d",r);
+return 0;
 }
+
 //Verify the strong number
 #include<stdio.h>
 int main(){
@@ -71,7 +80,6 @@ scanf("%d",&n);
 temp=n;
 for(;n!=0;n=n/10){
     r=n%10;
-
     i=1;
    for(;r>0;r=r-1){
     i=i*r;
@@ -80,7 +88,9 @@ for(;n!=0;n=n/10){
 printf("strong");
 else
     printf("not strong");
+return 0;
 }
+
 //Verify the perfect number
 #include<stdio.h>
 int main(){
@@ -95,7 +105,9 @@ for(r=1;r<n;r++){
 printf("perfect");
 else
     printf("not perfect");
+return 0;
 }
+
 //Verify the prime number
 #include<stdio.h>
 int main(){
@@ -113,7 +125,9 @@ if(t==1)
     printf("np");
 else
     printf("p");}
+return 0;
 }
+
 //2 to n prime
 #include<stdio.h>
 int main(){
@@ -130,8 +144,9 @@ for(i=2;i<=n;i++){
     printf("prime=%d\n",i);
 else
     printf("not prime=%d\n",i);
+}return 0;
 }
-}
+
 //fibonacci series
 #include<stdio.h>
 int main(){
@@ -150,9 +165,9 @@ int main(){
         j=b;
         b=next;
     }
-       }
+       }return 0;
 }
-*/
+
 //sum of 3,7,13,21,31,.....series
 #include<stdio.h>
 int main(){
@@ -165,6 +180,7 @@ for(i=2;i<=n;i++){
     r=r+sum;
 }
 printf("Sum of until %d th series:%d",n,r);
+return 0;
 }
 
 
