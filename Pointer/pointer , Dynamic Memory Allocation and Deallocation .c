@@ -89,3 +89,22 @@ for (int i = 0; i < 3; i++) {
  return 0;
 }
 
+//Dynamic Memory Management Using malloc(),calloc(),realloc() and free()
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int *ptr1,*ptr2;
+ptr1=(int*)malloc(5*sizeof(int));
+ptr2=(int*)calloc(5,sizeof(int));
+int n=5*sizeof(*ptr1);
+printf("%d\n",n);
+ptr2=realloc(ptr2,50*sizeof(int));
+int m=50*sizeof(*ptr2);
+printf("%d\n",m);
+if(ptr1==NULL&&ptr2==NULL)
+    printf("memory allocation failed");
+else printf("memory allocation successful for both");
+free(ptr1);
+free(ptr2);
+return 0;
+}
